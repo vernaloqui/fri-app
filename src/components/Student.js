@@ -37,6 +37,9 @@ function Student() {
         }).catch(function(error){
             alert("error!");
         });
+        setFname('');
+        setLname('');
+        setAge('');
     }
 
     const deleteStudent = function(e){
