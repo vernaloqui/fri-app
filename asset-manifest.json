@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/fri-app/static/css/main.b3992f1d.css",
-    "main.js": "/fri-app/static/js/main.5e49af4b.js",
+    "main.js": "/fri-app/static/js/main.43f3f6c2.js",
     "static/media/mall.jpg": "/fri-app/static/media/mall.c1d0e10b2a193b6bf80b.jpg",
     "static/media/womens.jpg": "/fri-app/static/media/womens.eb4c36cabc64763a3c64.jpg",
     "static/media/mens.jpg": "/fri-app/static/media/mens.c5c24879e18f14feecab.jpg",
     "static/media/dress.jpg": "/fri-app/static/media/dress.f5fe16f232499c4f00f8.jpg",
     "index.html": "/fri-app/index.html",
     "main.b3992f1d.css.map": "/fri-app/static/css/main.b3992f1d.css.map",
-    "main.5e49af4b.js.map": "/fri-app/static/js/main.5e49af4b.js.map"
+    "main.43f3f6c2.js.map": "/fri-app/static/js/main.43f3f6c2.js.map"
   },
   "entrypoints": [
     "static/css/main.b3992f1d.css",
-    "static/js/main.5e49af4b.js"
+    "static/js/main.43f3f6c2.js"
   ]
 }
