@@ -2,7 +2,7 @@ import {Link} from 'react-router-dom'
 function Card(prop){
     return (
         <div>
-            <div className="card col-12 col-lg-3 col-md-6" style={{width: "18rem",  margin:"2px"}}>
+            <div className="card" style={{width: "18rem",  margin:"2px"}}>
                 <img src={prop.img} className="card-img-top" alt="text" style={{height:"150px",}}/>
                 <div className="card-body d-flex flex-column">
                     <h5 className="card-title">Card title</h5>
