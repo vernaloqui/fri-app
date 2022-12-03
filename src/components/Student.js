@@ -16,7 +16,8 @@ function Student() {
         })
     },[])
 
-    const submitBtn = function(){
+    const submitBtn = function(e){
+        e.preventDefault();
         let getData = new FormData();
         getData.append('fname', fname);  //key-value pairs like session storage
         getData.append('lname', lname); 
@@ -90,7 +91,7 @@ function Student() {
     return(
         <div>
             <h1>Student's List</h1>
-            <form>
+            <form action="">
                 <input type="text" name="fname" value={fname} onChange = {(e) => setFname(e.target.value)}/>
                 <input type="text" name="lname" value={lname} onChange = {(e) => setLname(e.target.value)}/>
                 <input type="number" name="age" value={age} onChange = {(e) => setAge(e.target.value)}/>
