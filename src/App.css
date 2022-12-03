@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+body {
+  background: rgba(0, 128, 0, 0.3)
+}
+
+.navbar{
+  background: rgba(7, 49, 7, 0.3)
+}
